@@ -1,0 +1,25 @@
+$green: rgb(56, 133, 5);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Helvetica';
+	background-color: rgb(236, 234, 231);
+	font-size: 1.1rem;
+}
+
+@font-face {
+	font-family: 'AmaticSC-Regular';
+	src: url('./fonts/Amatic_SC/AmaticSC-Regular.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('./fonts//Roboto/Roboto-Regular.ttf');
+}
+a {
+	color: $green;
+	text-decoration: none;
+	font-style: none;
+}
