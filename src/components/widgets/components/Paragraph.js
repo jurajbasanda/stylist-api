@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 
 const Paragraph = ({ paragraph }) => {
 	return (
-		<article key='1' className='widget-item'>
+		<div className='widget-item'>
 			<div dangerouslySetInnerHTML={{ __html: paragraph }} />
-		</article>
+		</div>
 	)
 }
 Paragraph.propTypes = {

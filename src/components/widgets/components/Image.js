@@ -8,7 +8,7 @@ const Image = ({ image }) => {
 	const xlarge = useMediaQuery('(max-width:1020px)')
 	const xxlarge = useMediaQuery('(max-width:1400px)')
 	return (
-		<article key={image.alt} className='widget-item'>
+		<div key={image.alt} className='widget-item'>
 			{small ? (
 				<img src={image.sizes.portrait} alt={image.alt} />
 			) : large ? (
@@ -20,7 +20,7 @@ const Image = ({ image }) => {
 			) : (
 				<img src={image.url} alt={image.alt} />
 			)}
-		</article>
+		</div>
 	)
 }
 Image.propTypes = {
